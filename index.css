@@ -116,7 +116,7 @@ header .navigation li a:hover{
 .div1{
     height: 750px;
     width: 45%;
-    background-color: salmon;
+    background-color: rgb(255, 123, 123);
 }
 .div1 h1{
     color:khaki;
@@ -212,6 +212,7 @@ header .navigation li a:hover{
     display: cover;
     height: 729px;
     width: 835px;
+    margin-top: 30px;
 }
 
 
@@ -311,11 +312,8 @@ header .navigation li a:hover{
 .div8 p{
     text-align: center;
     color: white;
-    padding: 10px;
-    
-     
+    padding: 10px; 
 }
-
 
  
 

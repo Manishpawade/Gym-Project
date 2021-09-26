@@ -1,20 +1,20 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@500&display=swap');
 body{
     margin: 0;
     padding: 0;
 }
 section{
-    height: 100vh;
+    height: 50vh;
     width: 100%;
 }
 .section{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 84vh;
+    height: 50vh;
     background: #000;
 }
-p{
+.section p{
     position: relative;
     font-family: sans-serif;
     text-transform: uppercase;
@@ -49,6 +49,11 @@ p{
     display: flex;
     align-items: center;
 }
+.navbar h1{
+    font-size: 3em;
+    font-weight: 700;
+    font-family: sans-serif;
+}
 nav{
     flex: 1;
     text-align: right;
@@ -60,7 +65,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: rgb(250, 250, 250);
-    font-size: 18px;
+    font-size: 1em;
     padding: 10px;
     margin-right: 50px;
 }
@@ -93,7 +98,7 @@ input{
     margin: 40px 0;
     color: black;
 }
-.container h1::before{
+/* .container h1::before{
     content: '';
     position: absolute;
     width: 100px;
@@ -102,8 +107,8 @@ input{
     bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
-    animation: animates 6s linear infinite;
-}
+    animation: animates 6s linear infinite; */
+/* } */
 @keyframes animates{
     0%{
            width: 100px;
@@ -125,6 +130,7 @@ input{
     align-items: center;
     border-radius: 5px;
     box-shadow: 3px 3px 5px lightgrey;
+    margin-top: 120px;
 }
 .container .top-content h3{
     height: 100%;
@@ -267,5 +273,56 @@ label:hover{
     position: absolute;
     transition: 0s;
 }
+
+.div7{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+.div7 .contactus{
+    width: 40%;
+}
+.div7 .contactus h2{
+    color: #03a9f4;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.contactus ul{
+    color: #fff;
+    margin-left: 200px;
+    margin-top: 20px;
+    list-style: none;
+}
+.contactus li{
+    padding: 10px;
+
+}.div7  .connect{
+    width: 30%;
+}
+.div7 .connect h2{
+    margin-top: 20px;
+    color: #03a9f4;
+}
+.div7 .connect .signs{
+    display: flex;
+}
+.div7  .connect ul{
+    list-style: none;
+    margin-top: 20px;  
+}
+ .signs li a{
+    filter: invert(1);
+    margin: 10px;  
+}
+.div7 .aboutus{
+    width: 30%;
+}
+.div7 .aboutus h2 {
+    margin-top: 20px;
+    color: #03a9f4;
+
+}    
+     
 
    
